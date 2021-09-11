@@ -1,0 +1,26 @@
+.contact-me-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  font-weight: normal;
+}
+
+.contact-me {
+  width: 30vw;
+  margin: 1rem 0;
+  max-width: var(--fixed-width);
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 1rem 2rem;
+  box-shadow: var(--dark-shadow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icon-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
