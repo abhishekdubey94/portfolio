@@ -6,6 +6,9 @@ const Intro = () => {
   return (
     <>
       <div className="intro-container">
+        <div class="bg"></div>
+        <div class="bg bg2"></div>
+        <div class="bg bg3"></div>
         <div className="intro">
           <Typewriter
             onInit={(typewriter) => {
@@ -17,6 +20,7 @@ const Intro = () => {
                 .typeString("I am a <strong>Software Engineer</strong>.")
                 .start();
             }}
+            options={{ loop: true }}
           />
         </div>
       </div>

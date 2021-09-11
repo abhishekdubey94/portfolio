@@ -11,13 +11,14 @@ const AboutMe = () => {
           <div className="photo">
             <img src={myPhoto} alt="Abhishek" />
           </div>
-          I'm a Software Enginer based in Bengluru, India. I enjoy turning
-          complex problems into simple, beautiful and intuitive designs. When
-          I'm not pushing pixels, you'll find me cooking, gardening or working
-          out in the park. I am passionate about building excellent software
-          that improves the lives of those around me. I specialize in creating
-          software for clients ranging from individuals and small-businesses all
-          the way to large enterprise corporations.
+          <div style={{ padding: "5px 2px", justifyContent: "center" }}>
+            I'm a Software Enginer based in Bengaluru, India. I enjoy turning
+            complex problems into simple, beautiful and intuitive designs. I am
+            passionate about building excellent software that improves the lives
+            of those around me. I'm a strong team player who is able to quickly
+            learn and apply new technologies. When I'm not coding, you'll find
+            me cooking, playing badminton or working out.
+          </div>
         </div>
       </div>
     </>

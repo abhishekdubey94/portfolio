@@ -24,3 +24,10 @@
   display: flex;
   justify-content: space-around;
 }
+.icon {
+  transition: all 0.2s ease-in-out;
+}
+
+/* .icon:hover {
+  transform: scale(1.1);
+} */
